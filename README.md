@@ -8,11 +8,11 @@ We will first install Airflow in a docker container. If we navigate to the same 
 ```console
 C:\Users\VP1050\OneDrive\Documents> docker-compose up
 ```
-![Docker Desktop](https://raw.githubusercontent.com/vinceperkins/airflow-web-scraping-pipeline/main/posts/20220610/airflow-docker.png){: width="1086" height="542"}
+![Docker Desktop](https://raw.githubusercontent.com/vinceperkins/airflow-web-scraping-pipeline/main/posts/20220610/airflow-docker.png)
 
 The default airflow credentials are * airflow * for username and password. This example will run on localhost:8080. 
 
-![Airflow UI]([/posts/20220610/airflow-ui.png](https://raw.githubusercontent.com/vinceperkins/airflow-web-scraping-pipeline/main/posts/20220610/airflow-docker.png)){: width="1086" height="542"}
+![Airflow UI]([/posts/20220610/airflow-ui.png](https://raw.githubusercontent.com/vinceperkins/airflow-web-scraping-pipeline/main/posts/20220610/airflow-docker.png))
 
 ## Data Extraction in Airflow DAG (Directed Acyclic Graph)
 
@@ -244,7 +244,7 @@ Running the tasks:
    2. Right-click on task 0 and select run. The remaining tasks will then complete in order.
     
 The image below shows the tasks running in Airflow.
-![DAG Tasks](https://raw.githubusercontent.com/vinceperkins/airflow-web-scraping-pipeline/main/posts/20220610/airflow-tasks.png){: width="1086" height="542"}
+![DAG Tasks](https://raw.githubusercontent.com/vinceperkins/airflow-web-scraping-pipeline/main/posts/20220610/airflow-tasks.png)
 
 ## Conclusion
 
